@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.todos-bg-container {
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9414bb, #bd412c);
+  background: linear-gradient(to right, #9414bb, #bd412c);
+  font-family: 'Comic Sans MS';
+  min-height: 100vh;
+}
+
+/* Heading elements' styling */
+
+.todos-heading {
+  color: white;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.create-task-heading {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-task-heading-subpart {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-heading {
+  margin-top: 50px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 5px 15px 5px 15px;
+}
+
+
+.button:active{
+  transform: scale(0.95);
+}
+
+#undoDeleteBtn{
+  background-color: #c9bc04;
+}
+
+#addTodoButton{
+  background-color: #38b66dfb;
+}
+
+#saveTodoButton{
+  background-color: #308adf;
+}
+
+/* Todo Items styling */
+
+.label-container {
+  color: white;
+  width: 100%;
+  border: none;
+  border-color: #096f92;
+  border-radius: 10px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icons-container {
+  text-align: right;
+  width: 30%;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 15px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
